@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="save" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1{fill:#666}
+        </style>
+    </defs>
+    <path id="Path_1156" d="M1.5 22h19a1.5 1.5 0 0 0 1.5-1.5V6.054a2.238 2.238 0 0 0-.659-1.589L16.875 0h-.006v8.332h-11.9V0H1.5A1.5 1.5 0 0 0 0 1.5v19A1.5 1.5 0 0 0 1.5 22z" class="cls-1" data-name="Path 1156"/>
+    <path id="Rectangle_205" d="M0 0h3.192v6.711H0z" class="cls-1" data-name="Rectangle 205" transform="translate(11.86)"/>
+</svg>

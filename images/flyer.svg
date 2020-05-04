@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.458" height="46.231" viewBox="0 0 33.458 46.231">
+    <defs>
+        <style>
+            .cls-1{fill:#164c81}
+        </style>
+    </defs>
+    <g id="flyer" transform="translate(-70.729)">
+        <g id="Group_2601" data-name="Group 2601" transform="translate(74.996)">
+            <g id="Group_2600" data-name="Group 2600">
+                <path id="Path_1160" d="M145.824 0h-26.485a1.353 1.353 0 0 0-1.353 1.353v.911h21.275a4.064 4.064 0 0 1 4.059 4.059v25.518h3.857V1.353A1.353 1.353 0 0 0 145.824 0z" class="cls-1" data-name="Path 1160" transform="translate(-117.986)"/>
+            </g>
+        </g>
+        <g id="Group_2603" data-name="Group 2603" transform="translate(100.331 34.548)">
+            <g id="Group_2602" data-name="Group 2602">
+                <path id="Path_1161" d="M398.558 382.6v7.5h2.5a1.353 1.353 0 0 0 1.353-1.353V382.6z" class="cls-1" data-name="Path 1161" transform="translate(-398.558 -382.605)"/>
+            </g>
+        </g>
+        <g id="Group_2605" data-name="Group 2605" transform="translate(70.729 40.559)">
+            <g id="Group_2604" data-name="Group 2604">
+                <path id="Path_1162" d="M70.729 449.178v4.322a1.355 1.355 0 0 0 1.353 1.353h24.189a1.355 1.355 0 0 0 1.353-1.353v-4.319z" class="cls-1" data-name="Path 1162" transform="translate(-70.729 -449.178)"/>
+            </g>
+        </g>
+        <g id="Group_2607" data-name="Group 2607" transform="translate(70.729 4.971)">
+            <g id="Group_2606" data-name="Group 2606">
+                <path id="Path_1163" d="M96.271 55.048H72.082a1.355 1.355 0 0 0-1.353 1.352v31.53h26.9V56.4a1.355 1.355 0 0 0-1.358-1.352zM78.7 62.675h10.953a1.353 1.353 0 1 1 0 2.706H78.7a1.353 1.353 0 0 1 0-2.706zm13.123 20.4H76.53a1.353 1.353 0 1 1 0-2.706h15.293a1.353 1.353 0 1 1 0 2.706zm0-4.387H76.53a1.353 1.353 0 1 1 0-2.706h15.293a1.353 1.353 0 1 1 0 2.706zm0-4.387H76.53a1.353 1.353 0 1 1 0-2.706h15.293a1.353 1.353 0 0 1 0 2.706z" class="cls-1" data-name="Path 1163" transform="translate(-70.729 -55.048)"/>
+            </g>
+        </g>
+    </g>
+</svg>
