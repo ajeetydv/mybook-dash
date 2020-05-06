@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.65" height="11.69" viewBox="0 0 11.65 11.69">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_74" d="M0 0H11.65V11.69H0z" class="prefix__cls-1" data-name="Rectangle 74"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_2621" data-name="Group 2621" transform="translate(-121 -122)">
+        <g id="prefix__Group_39" data-name="Group 39" transform="translate(121 122)">
+            <g id="prefix__Group_38" data-name="Group 38">
+                <path id="prefix__Path_982" d="M132.252 131.083l-1.777-1.778a.926.926 0 0 0-1.306.025l-.9.9-.177-.1a8.382 8.382 0 0 1-3.715-3.716c-.034-.059-.066-.117-.1-.173l.6-.6.3-.3a.925.925 0 0 0 .024-1.306l-1.778-1.778a.925.925 0 0 0-1.307.025l-.5.5.013.014a2.9 2.9 0 0 0-.412.728 2.993 2.993 0 0 0-.183.739c-.235 1.946.654 3.724 3.066 6.137 3.336 3.335 6.024 3.083 6.14 3.071a3 3 0 0 0 .741-.186 2.869 2.869 0 0 0 .725-.411l.011.01.508-.5a.928.928 0 0 0 .023-1.308zm0 0" class="prefix__cls-1" data-name="Path 982" transform="translate(-121.001 -122)"/>
+            </g>
+        </g>
+    </g>
+</svg>

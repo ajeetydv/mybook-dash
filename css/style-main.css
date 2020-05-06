@@ -728,9 +728,197 @@ header {
     width: 69%;
 }
 
+.list-nav li.list-group-item.active img {
+    filter: brightness(0%) invert(1);
+}
+
+/* flyer design */
+
+.card-options .form-group textarea {
+    border: none;
+    box-shadow:none;
+    padding: 0;
+}
+
+.card-options .txtara {
+    height: 82px;
+}
+
+.logo-layer {
+    width: 44%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    height: 214px;
+}
+
+
+.flyer-content {
+    float: left;
+    width: 55%;
+    height: 322px;
+}
+
+.flyer-infos {
+    float: left;
+    width: 100%;
+}
+
+
+
+.logo-layer img {
+    margin: 0 auto;
+    width: 30%;
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14%;
+}
+
+.logo-layer:after {content: "";position: absolute;left: 0;width: 103px;height: 157px;border-left: solid 66px rgb(100,186,230);border-bottom: solid 86px transparent;border-top: solid 69px transparent;top: 0;}
+
+.logo-layer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 76px;
+    border-top: solid 117px rgb(33, 79, 125);
+    border-left: solid 132px transparent;
+    border-right: solid 101px transparent;
+    left: -27px;
+    z-index: 2;
+}
+
+.userflyer-preview h2::first-word{
+    color:#000;
+}
+
+.userflyer-preview h2 {
+    width: 230px;
+    font-weight: 700;
+    color: #062c52;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userflyer-preview p {
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.healine-content h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #062c52;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.healine-content p.sub-headline {
+    font-weight: 700;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.flyer-content .social-list {
+    float: left;
+}
+
+.bga-blue ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.bga-blue {
+    background: #214f7d;
+    padding: 15px 25px;
+}
+
+.bga-blue ul li {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.bga-blue ul li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.bga-blue ul li span {
+    margin: 0 7px;
+}
+
+.info-txt p {
+    margin: 0;
+}
+
+.info-txt {
+    padding: 0px 25px;
+    /* overflow: hidden; */
+}
+
+.info-txt:after {content: "";position: absolute;height: 713px;left: -100px;/* right: 0; */margin: 0;top: 0;z-index: -1;width: 905px;background: #214f7d;transform: rotate(18deg);}
+
+.inner-cicle {
+    width: 153px;
+    height: 153px;
+    border-radius: 100%;
+    background: #f8f2f2;
+    text-align: center;
+    padding: 15px;
+    box-shadow: #d2d2d2 0px 0px 11px 0px;
+}
+
+.flyer-design{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.main-circle {
+    width: 125px;
+    height: 124px;
+    border: 2px solid #64bae6;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: inset #f8f2f2 0px 0px 0px 11px;
+    background: #214f7d;
+}
+
+.visit-block {
+    top: 4px;
+}
+
+.main-circle a {
+    margin: auto;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.flyer-infos h6, .flyer-infos p {
+    color: #fff;
+}
+
+.flyer-infos  h6 {
+    padding-top: 30px;
+}
 
 @media screen and (max-width: 2200px) and (min-width: 1600px){
     .template-3 .left-upload .upload-preview{
         margin-top: 27%;
     }
+
+   
+
 }
