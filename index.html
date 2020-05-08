@@ -20,26 +20,7 @@
 <body>
 
   
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
+   
 
     <section>
         <div class="main-content">
@@ -82,12 +63,109 @@
 
                         <div class="account-widget">
                             <ul>
-                                <li><a href="javascript:void(0)"><img src="images/accset.png">Account Settings</a></li>
-                                <li><a href="javascript:void(0)"><img src="images/renew.svg">My Subscription</a></li>
+                                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModalCenter2"><img src="images/accset.png">Account Settings</a></li>
+                                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModalCenter3"><img src="images/renew.svg">My Subscription</a></li>
                                 <li><a href="javascript:void(0)"><img src="images/Group 2619.svg">Log Out</a></li>
                             </ul>
                         </div>
                     </div>
+
+                    <!-- For Subscription Plan-->
+                    <div class="modal fade " id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                          <div class="modal-content">
+                           
+                            <div class="modal-body p-0">
+                                <div class="row m-0">
+                                    <div class="col-lg-12 p-0">
+                                     <div class="blue-main">
+                                         <h6>My Subscription <span>(you can upgrade or degrade your subscription).</span></h6>
+                                         <a href="javascript:void(0)" data-dismiss="modal" aria-label="Close"><img src="images/close.svg"></a>
+                                     </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="subscription-plan">
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                       
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        
+                                    </div>
+
+                                   
+                                </div>
+                                
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+
+
+<!--For Account Seetings -->
+                    <div class="modal fade " id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                          <div class="modal-content">
+                           
+                            <div class="modal-body p-0">
+                                <div class="row m-0">
+                                    <div class="col-lg-12 p-0">
+                                     <div class="blue-main">
+                                         <h6>Account Settings</h6>
+                                         <a href="javascript:void(0)" data-dismiss="modal" aria-label="Close"><img src="images/close.svg"></a>
+                                     </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="profile-pic position-relative">
+                                            <p>Profile Picture</p>
+                                            <img src="images/user.png" id="output">
+                                            <p class="btn-txt">Edit</p>
+                                            <input type="file" onchange="loadFile(event)">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <form class="account-frm">
+                                            <label>User Name</label>
+                                            <span><img src="images/pen.png">Edit</span>
+
+                                            <div class="editable-fields">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control"  placeholder="Enter Name" value="jeffrey Infante ">     
+                                                  </div>
+                                            </div>
+
+                                            <label>Email</label>
+                                            <div class="editable-fields">
+                                                <div class="save-itm">
+                                                    <button class="btn wht">Cancel</button>
+                                                    <button class="btn blue">Save</button>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control"  placeholder="Enter Name" value="jeffrey_Infante.15@gmail.com">     
+                                                  </div>
+                                            </div>
+
+                                            <div class="other-op">
+                                                <a href="#" class="lft">reset password</a>
+                                                <a href="#" class="rgt">delete account?</a>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+
                 </header>
 
                 <div class="main-component">
@@ -138,7 +216,68 @@
 
                                 </div>
 
+                                <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                      <div class="modal-content">
+                                       
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    
+                                                        <div class="card-design template-1">
+                                                            <div class="left-upload position-relative">
+                                                                    <div class="upload-preview">
+                                                                        <img src="images/your-logo.jpg">
+                                                                    </div>
+                                                                    <div class="usertitle-preview">
+                                                                        <h3>JEFFREY INFANTE </h3>
+                                                                        <h6 class="job-titles">Job Title</h6>
+                                                                    </div>
+                                                                    <div class="layer-skyblue"></div> 
+                                                            </div>
+                        
+                                                            <div class="custom-right">
+                                                                <div class="field-set">
+                                                                    <img src="images/mailicon.svg">
+                                                                    <p>Your Email id here</p>
+                                                                </div>
+                        
+                                                                <div class="field-set">
+                                                                    <img src="images/tel.svg">
+                                                                    <p>+91-0123456789</p>
+                                                                </div>
+                        
+                                                                <div class="field-set">
+                                                                    <img src="images/location.svg">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and. typesetting. industry.</p>
+                                                                </div>
+                        
+                                                                <div class="social-list">
+                                                                    <ul>
+                                                                        <li><a href="#"><img src="images/whatsapp-icon.png"></a></li>
+                                                                        <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                                                                        <li><a href="#"><img src="images/twitter.png"></a></li>
+                                                                        <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                
+                        
+                                                            </div>
+                        
+                                                        </div>
+                        
+                                                       
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    
+                                      </div>
+                                    </div>
+                                  </div>
+
                                 <div class="options-btn text-center">
+                                   
                                     <button class="dark-btn" data-toggle="modal" data-target="#exampleModalCenter">Preview</button>
                                     <button class="white-btn">Save</button>
                                 </div>
@@ -282,11 +421,10 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" type="text/javascript"></script>
-    
-    <script src="js/owl.carousel.js" type="text/javascript"></script>
-    <script src="js/custom-dashboard.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

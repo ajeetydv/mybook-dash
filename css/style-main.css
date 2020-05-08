@@ -914,6 +914,162 @@ header {
     padding-top: 30px;
 }
 
+/* css for account settings */
+
+.blue-main {
+    background-image: linear-gradient(95deg, #4184c4 7%, #3079c1 109%);
+    width: 100%;
+    float: left;
+    padding: 17px;
+}
+
+.blue-main h6 {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.blue-main a {
+    text-decoration: none;
+    float: right;
+}
+
+.blue-main img {
+    width: 25px;
+}
+
+.profile-pic {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.profile-pic p {
+    text-transform: uppercase;
+    color: #3079c1;
+}
+
+.profile-pic input[type="file"] {
+    opacity: 0;
+    z-index: 3;
+    position: relative;
+    top: -20px;
+}
+
+.profile-pic  p.btn-txt {
+    position: absolute;
+    bottom: 28px;
+    margin: 10px auto;
+    right: 0;
+    left: 0;
+    background: #3079c1;
+    width: 99px;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.profile-pic img {
+    margin-bottom: 34px;
+    width: 100px;
+}
+
+.account-frm label {
+    text-transform: uppercase;
+    width: 100%;
+    color: #3079c1;
+    text-decoration: underline;
+}
+
+.account-frm span {
+    float: right;
+    color: #3079c1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.account-frm span img {
+    width: 14px;
+    margin-right: 8px;
+}
+
+.editable-fields {
+    float: left;
+    width: 100%;
+}
+
+.editable-fields .form-control {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    color: #000;
+}
+
+.editable-fields .form-group {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+
+.editable-fields {
+    opacity: 0;
+    visibility: hidden;
+    height: 20px;
+    transition: all ease 0.5s;
+}
+
+.editable-fields.openfield {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.save-itm {
+    float: right;
+}
+
+.save-itm .wht {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.save-itm  .btn {
+    font-size: 16px;
+    padding: 5px 17px;
+    border-radius: 0px;
+    margin-left: 16px;
+}
+
+.save-itm .blue {
+    background: #3079c1;
+    color: #fff;
+}
+
+.account-frm {
+    padding: 19px;
+    float: left;
+    width: 100%;
+}
+
+.other-op a {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.other-op a.rgt {
+    float: right;
+    text-transform: capitalize;
+}
+
+/* Subscription plan starts */
+.blue-main h6 span {
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
 @media screen and (max-width: 2200px) and (min-width: 1600px){
     .template-3 .left-upload .upload-preview{
         margin-top: 27%;

@@ -1,12 +1,4 @@
-$(".drop-list").click(function (e) {
-    e.stopPropagation();
-    $(".account-widget").toggleClass('opensidemenu');
-});
 
-$("body").click(function (e) {
-    e.stopPropagation();
-    $(".account-widget").removeClass('opensidemenu');
-});
 
 
 $(document).ready(function () {
@@ -57,6 +49,29 @@ $(document).ready(function () {
       owl.trigger('stop.owl.autoplay')
     })
   
-  
+
   })
   
+  $(".drop-list").click(function (e) {
+    e.stopPropagation();
+    $(".account-widget").toggleClass('opensidemenu');
+});
+
+$("body").click(function () {
+  $(".account-widget").removeClass('opensidemenu');
+});
+
+$(".account-frm span").click(function (e) {
+  e.stopPropagation();
+  $(".editable-fields").toggleClass('openfield');
+});
+
+/* For Image upload */
+
+var loadFile = function(event) {
+  var output = document.getElementById('output');
+  output.src = URL.createObjectURL(event.target.files[0]);
+  output.onload = function() {
+    URL.revokeObjectURL(output.src) // free memory
+  }
+};
