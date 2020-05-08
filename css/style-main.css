@@ -921,6 +921,7 @@ header {
     width: 100%;
     float: left;
     padding: 17px;
+    margin-bottom: 40px;
 }
 
 .blue-main h6 {
@@ -1070,11 +1071,147 @@ header {
     font-size: 17px;
 }
 
+.subscription-plan {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    min-height: 390px;
+    margin-bottom: 30px;
+}
+
+.plan-type h6 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+    color: #387ec3;
+}
+
+.plan-names ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.bg-gray {
+    background: #f7f7f7;
+}
+
+.plan-price span {
+    font-size: 56px;
+    color: #377ec2;
+}
+
+.plan-type {
+    padding: 10px;
+    border-bottom: 1px dashed #cec5c5;
+}
+
+.bg-gray .plan-type h6 {
+    color: #666666;
+}
+
+.plan-names {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    min-height: 145px;
+}
+
+.cta.act {
+    float: left;
+    width: 100%;
+}
+
+.cta.act .gray-btns {
+    margin: auto;
+    background: #a5a5a5;
+    padding: 14px 32px;
+    color: #fff;
+}
+
+.plan-names ul li {
+    margin-bottom: 17px;
+}
+
+.plan-names ul li img {
+    margin-right: 27px;
+}
+
+p.renew.opt {
+    background: #367dc2;
+    padding: 14px 20px;
+    color: #fff;
+}
+
+.subscription-plan {
+    box-shadow: #b9acac -1px -2px 6px 0px;
+}
+
+.cta.act a, .cta.act p {
+    font-size: 14px;
+}
+
+.subscribe-model {
+    max-width: 1007px;
+}
+
+/* social shares */
+
+.social-shares ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-shares ul li {
+    display: inline-block;
+    margin: 0 15px;
+    width: 39%;
+    margin-bottom: 15px;
+}
+
+.social-shares ul li .btn-social {
+    text-decoration: none;
+    padding: 15px 22px;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+}
+
+.social-shares ul li  a.fb {
+    background: #5776a0;
+}
+
+.social-shares ul li .btn-social img {
+    width: 23px;
+    margin-right: 10px;
+}
+
+.social-shares ul li a.whatsapp {
+    background: #11a011;
+}
+
+
+.social-shares ul li  a.twt {
+    background: #64bae6;
+}
+
+
+
+.social-shares ul li a.email-msg {
+    background: #d1403f;
+}
+
+.social-shares ul li .btn-social.fb img {width: 14px;}
+.social-shares ul li .btn-social.lindn {
+    background: #3079c1;
+}
+
 @media screen and (max-width: 2200px) and (min-width: 1600px){
     .template-3 .left-upload .upload-preview{
         margin-top: 27%;
     }
-
-   
-
 }
