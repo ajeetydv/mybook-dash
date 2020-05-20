@@ -1210,6 +1210,115 @@ p.renew.opt {
     background: #3079c1;
 }
 
+
+.field-set, .social-list, .upload-preview, .usertitle-preview h3, .usertitle-preview h6{
+	cursor:pointer;
+}
+
+.card-dragover {
+    overflow: hidden;
+}
+
+.custom-opn {
+    position: absolute;
+    right: 0;
+    width: auto;
+    cursor: pointer;
+}
+
+.custom-opn ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-opn ul li {
+    display: inline-block;
+    width: 23px;
+    border-left: 1px solid #bdb3b3;
+    padding: 0 5px;
+    height: 42px;
+}
+
+.common-widgets {
+    position: absolute;
+    width: 101%;
+    top: -48px;
+    display: flex;
+    right: 0;
+    text-align: right;
+    background: #fff;
+    box-shadow: #bbb 0px 0px 5px 0px;
+    padding: 9px 0;
+    transition: all ease 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.common-widgets.showwid {
+    opacity: 1;
+    visibility: visible;
+}
+
+.font-increase {
+    width: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 0 7px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.font-increase img {
+    width: 51%;
+}
+
+.common-widgets input {
+    height: 30px;
+    width: 28px;
+}
+
+.font-parts ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.font-parts ul li {
+    float: right;
+    display: flex;
+    text-align: center;
+}
+
+.font-parts {
+    float: left;
+    width: 60%;
+}
+
+.font-parts ul li span {
+    width: 26px;
+    margin: 0 0px;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    padding: 0 2px;
+    height: 30px;
+}
+
+.font-parts ul li span img {
+    width: 13px;
+}
+
+.font-parts ul li.icon-only img {
+    width: 16px;
+    padding: 5px 0;
+}
+
+.font-parts ul li.icon-only {
+    margin: 0 8px;
+}
+
 @media screen and (max-width: 2200px) and (min-width: 1600px){
     .template-3 .left-upload .upload-preview{
         margin-top: 27%;
